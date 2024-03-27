@@ -1,3 +1,7 @@
+/*
+후위수식으로 입력된 값을 스택을 사용하여 계산한 후 결과 값을 출력하는 프로그램을 작성하라
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
