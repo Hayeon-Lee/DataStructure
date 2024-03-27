@@ -3,13 +3,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-void push(char *stack, char t, int *c_p);
-char pop(char *stack, int *c_p);
-void peek(char *stack, int *c_p);
-void duplicate(char *stack, int *c_p);
-void upRotate(char *stack, int *c_p, int R_N);
-void downRotate(char *stack, int *c_p, int R_N);
-void print(char *stack, int *c_p);
+void push(char *stack, char t, int *c_p); //stack의 top에 데이터를 추가한다.
+char pop(char *stack, int *c_p); //stack의 top에 있는 데이터를 반환하고 stack에서 제거한다.
+void peek(char *stack, int *c_p); //stack의 top에 있는 데이터를 화면에 출력한다.
+void duplicate(char *stack, int *c_p); //stack의 top에 있는 데이터를 pop 한 뒤, 두 번 push 한다
+void upRotate(char *stack, int *c_p, int R_N); //stack의 맨 위 n개의 데이터를 회전시킨다.
+void downRotate(char *stack, int *c_p, int R_N); //stack의 맨 아래 n개의 데이터를 회전시킨다.
+void print(char *stack, int *c_p); //stack의 모든 데이터를 top에서부터 순서대로 공백 없이 출력한다.
 
 int main()
 {
