@@ -1,3 +1,9 @@
+/*
+한 줄로 입력된 수식 문장에서 괄호 짝의 유효성 검사를 진행한다.
+괄호는 (), {}, [] 세 개의 종류를 가지며 수식 문장은 공백을 포함할 수 있다.
+유효하지 않을 시 Wrong_N, 유효할 시 OK_N을 출력한다. N은 문장 안의 괄호 개수이다.
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
