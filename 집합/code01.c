@@ -107,7 +107,9 @@ int subset(node *A, node *B, int sizeA, int sizeB)
 
 int member(node *A, int B_elem, int sizeA, int sizeB)
 {
-	while (1) {
+	while (1) { 
+		//모든 원소는 오름차순 정렬이 되어있고, A가 B에 속해있는지를 확인하므로 만약 A가 B보다 큰 원소가 나오면 
+		//A는 무조건 B의 부분집합이 아님. 이를 이용하여 로직 작성
 		if (A->elem < B_elem)
 		{
 			if (A->next == NULL) return 0;
